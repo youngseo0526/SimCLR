@@ -48,7 +48,7 @@ Introducing a leanable nonliner transformation between the representation and th
 `Adam` was used with `CosineAnnealingLR` scheduler
 
 ### Outstanding difference with the original paper
-- original paper was used 'NT-Xent` loss, but this code used `InfoNCE`
+- original paper was used `NT-Xent` loss, but this code used `InfoNCE`
 - `Adam` optimizer was used instead of `LARS`
 
 ## Reference
