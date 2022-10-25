@@ -14,4 +14,7 @@ $ conda activate simclr
 $ python run.py
 ```
 
-## 
+## Train
+Execute `run.ipynb` in the folder
+
+## Explanation
