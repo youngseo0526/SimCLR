@@ -57,6 +57,10 @@ Introducing a learnable nonliner transformation between the representation and t
 - original paper was used `NT-Xent` loss, but this code used `InfoNCE`
 - `Adam` optimizer was used instead of `LARS`
 
+## TODO
+- [ ] Evaluate learned representations
+- [ ] Train another dataset
+
 ## Reference
 [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/pdf/2002.05709.pdf)<br>
 [PyTorch implementation of SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://github.com/sthalles/SimCLR)
