@@ -48,7 +48,7 @@ Introducing a learnable nonliner transformation between the representation and t
 `Adam` was used with `CosineAnnealingLR` scheduler
 
 ### Result
-Performance under different batch sizes using modelifed ResNet50, epochs = 400, t = 0.07, lr = 0.0003
+Performance under different batch sizes using modified ResNet50, epochs = 400, t = 0.07, lr = 0.0003
 | source | 256 | 512 |
 | ------ | ------| ------|
 | paper | 83.9 % | 84.2 % |
