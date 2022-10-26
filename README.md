@@ -51,8 +51,8 @@ Introducing a learnable nonliner transformation between the representation and t
 Performance under different batch sizes using modelifed ResNet50, epochs = 400, t = 0.07, lr = 0.0003
 | source | 256 | 512 |
 | ------ | ------| ------|
-| paper | 83.9% | 84.2% |
-| this repo | 74.02% | 78.32% |
+| paper | 83.9 % | 84.2 % |
+| this repo | 74.02 % | 78.32 % |
 
 ### Outstanding difference with the original paper
 - original paper was used `NT-Xent` loss, but this code used `InfoNCE`
