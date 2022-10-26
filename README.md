@@ -47,14 +47,15 @@ Introducing a learnable nonliner transformation between the representation and t
 ### Opimmizer
 `Adam` was used with `CosineAnnealingLR` scheduler
 
+### Train result
+| Backbone | Loss | Top1 accuracy | 
+| ------ |-----| ------| 
+| Resnet18 | 1 | 1 | 
+| ResNet50 | 1 | 1 |
+
 ### Outstanding difference with the original paper
 - original paper was used `NT-Xent` loss, but this code used `InfoNCE`
 - `Adam` optimizer was used instead of `LARS`
-
-| Epochs | 100 | 200 | 
-| ------ |-----| ------| 
-| Paper | 83.9| 89.2 | 
-| This repo |87.49 | 88.16 |
 
 ## Reference
 [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/pdf/2002.05709.pdf)<br>
