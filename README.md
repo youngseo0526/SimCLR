@@ -9,7 +9,7 @@ This is my review of [paper](https://breezy-perfume-dec.notion.site/A-Simple-Fra
 
 ## Installation
 ```
-$ conda env create --name simclr --file env.yml
+$ conda env create --name simclr --file env.yaml
 $ conda activate simclr
 $ python run.py
 ```
@@ -39,7 +39,7 @@ Add MLP projection head (Fully Connected layer) to backbone network resnet
 - with `ReLU` activation function
 
 ### Loss
-Introducing a leanable nonliner transformation between the representation and the contrastive loss substantially imporoves the quality of the learned representations
+Introducing a learnable nonliner transformation between the representation and the contrastive loss substantially imporoves the quality of the learned representations
  - `InfoNCE` loss was used to contrastive learning
  - The similarity was calculated by cosine similarity
  - The loss scores are calculated by `CrossEntropyLoss` with normailzed temperature-scaled logits
