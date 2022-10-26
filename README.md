@@ -48,10 +48,10 @@ Introducing a learnable nonliner transformation between the representation and t
 `Adam` was used with `CosineAnnealingLR` scheduler
 
 ### Train result
-| Backbone | Loss | Top1 accuracy | 
-| ------ |-----| ------| 
-| Resnet18 | 1.71 | 67.18 | 
-| ResNet50 | 1. | 1 |
+| Source | Top-1 accuracy |
+| ------ | ------| 
+| paper | 90.6 |
+| this repo | 74.02 |
 
 ### Outstanding difference with the original paper
 - original paper was used `NT-Xent` loss, but this code used `InfoNCE`
