@@ -9,9 +9,9 @@ This is my review of [paper](https://breezy-perfume-dec.notion.site/A-Simple-Fra
 
 ## Installation
 ```
-conda env create --name simclr --file env.yaml
-conda activate simclr
-python3 run.py
+$ conda env create --name simclr --file env.yaml
+$ conda activate simclr
+$ python3 run.py
 ```
 
 ## Train
