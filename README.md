@@ -47,8 +47,8 @@ Introducing a learnable nonliner transformation between the representation and t
 ### Opimmizer
 `Adam` was used with `CosineAnnealingLR` scheduler
 
-### Train result
-Linear evaluation using modelifed ResNet50, epochs = 400, t = 0.07, lr = 0.0003
+### Result
+Performance under different batch sizes using modelifed ResNet50, epochs = 400, t = 0.07, lr = 0.0003
 | source | 256 | 512 |
 | ------ | ------| ------|
 | paper | 83.9% | 84.2% |
