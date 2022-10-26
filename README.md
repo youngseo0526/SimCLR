@@ -50,8 +50,8 @@ Introducing a learnable nonliner transformation between the representation and t
 ### Train result
 | Backbone | Loss | Top1 accuracy | 
 | ------ |-----| ------| 
-| Resnet18 | 1 | 1 | 
-| ResNet50 | 1 | 1 |
+| Resnet18 | 1.71 | 67.18 | 
+| ResNet50 | 1. | 1 |
 
 ### Outstanding difference with the original paper
 - original paper was used `NT-Xent` loss, but this code used `InfoNCE`
