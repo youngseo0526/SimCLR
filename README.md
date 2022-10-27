@@ -13,7 +13,7 @@ $ conda env create --name simclr --file env.yaml
 $ conda activate simclr
 $ python3 run.py
 ```
-download path file [here](https://drive.google.com/file/d/16lxETXDYAl8mfaaemZzd7zyk0w5A3-LQ/view?usp=sharing) and push the file at `runs/TRY_FOLDER`
+download path file [here](https://drive.google.com/file/d/16lxETXDYAl8mfaaemZzd7zyk0w5A3-LQ/view?usp=sharing) and push the file at `feature_eval/`
 ## Train
 Execute `run.ipynb` in the folder
 
